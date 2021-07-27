@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Склад</dataPath>
+				<field>Склад</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Родитель</dataPath>
+				<field>Родитель</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидНоменклатуры</dataPath>
+				<field>ВидНоменклатуры</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КамераСклада</dataPath>
+				<field>КамераСклада</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВесНетто</dataPath>
+				<field>ВесНетто</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Отвес</dataPath>
+				<field>Отвес</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДанныхОтвеса</dataPath>
+				<field>ТипДанныхОтвеса</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Характеристика</dataPath>
+				<field>Характеристика</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаНаУпаковку</dataPath>
+				<field>ДатаНаУпаковку</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата на упаковку</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НормаПериодаОхлаждения</dataPath>
+				<field>НормаПериодаОхлаждения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Норма периода охлаждения КИО1 (ч)</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НормаПериодаОхлажденияКИО_2</dataPath>
+				<field>НормаПериодаОхлажденияКИО_2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Норма периода охлаждения  КИО2(ч)</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВходаВКИО1</dataPath>
+				<field>ДатаВходаВКИО1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата входа В КИО1</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыходаИзКИО1</dataPath>
+				<field>ДатаВыходаИзКИО1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата выхода из КИО1</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВходаВКИО2</dataPath>
+				<field>ДатаВходаВКИО2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата входа В КИО2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыходаИзКИО2</dataPath>
+				<field>ДатаВыходаИзКИО2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата выхода из КИО2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяОхлажденияФакт</dataPath>
+				<field>ВремяОхлажденияФакт</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Время охлаждения факт</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщееВремяОхлажденияПлан</dataPath>
+				<field>ОбщееВремяОхлажденияПлан</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общее время охлаждения Норма</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОтклонениеОтНормыКИО2</dataPath>
+				<field>ОтклонениеОтНормыКИО2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отклонение от нормы КИО2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОтклонениеОтНормыОбщее</dataPath>
+				<field>ОтклонениеОтНормыОбщее</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отклонение от нормы общее</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОтклонениеОтНормыКИО1</dataPath>
+				<field>ОтклонениеОтНормыКИО1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отклонение от нормы КИО1</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяОхлажденияКИО1Факт</dataPath>
+				<field>ВремяОхлажденияКИО1Факт</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Время охлаждения КИО1 факт</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяОхлажденияКИО2Факт</dataPath>
+				<field>ВремяОхлажденияКИО2Факт</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Время охлаждения КИО2 факт</d5p1:content>
+					</d5p1:item>
+				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>2</Digits>
+						<FractionDigits>2</FractionDigits>
+						<AllowedSign>Any</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_номенклатура
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+{ГДЕ
+	Номенклатура.Ссылка.*,
+	Номенклатура.Родитель.*,
+	Номенклатура.ВидНоменклатуры.*}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ппПотериПриТермообработкеСрезПоследних.Период КАК Период,
+	ппПотериПриТермообработкеСрезПоследних.Номенклатура КАК Номенклатура,
+	ппПотериПриТермообработкеСрезПоследних.ПроцентПотерьМинимальный КАК ПроцентПотерьМинимальный,
+	ппПотериПриТермообработкеСрезПоследних.ПроцентПотерьМаксимальный КАК ПроцентПотерьМаксимальный,
+	ппПотериПриТермообработкеСрезПоследних.НормаПериодаОсадки КАК НормаПериодаОсадки,
+	ппПотериПриТермообработкеСрезПоследних.НормаПериодаТермообаботки КАК НормаПериодаТермообаботки,
+	ппПотериПриТермообработкеСрезПоследних.НормаПериодаОхлаждения КАК НормаПериодаОхлаждения,
+	ппПотериПриТермообработкеСрезПоследних.НормаПериодаОхлажденияКИО_2 КАК НормаПериодаОхлажденияКИО_2
+ПОМЕСТИТЬ ВТНормы
+ИЗ
+	ВТ_номенклатура КАК ВТ_номенклатура
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ппПотериПриТермообработке.СрезПоследних КАК ппПотериПриТермообработкеСрезПоследних
+		ПО ВТ_номенклатура.Ссылка = ппПотериПриТермообработкеСрезПоследних.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ппОтвесыОбороты.Номенклатура КАК Номенклатура,
+	ппОтвесыОбороты.Отвес КАК Отвес,
+	ппОтвесыОбороты.ТипДанныхОтвеса КАК ТипДанныхОтвеса,
+	ппОтвесыОбороты.Характеристика КАК Характеристика,
+	СУММА(ппОтвесыОбороты.ВесНеттоОборот) КАК ВесНеттоОборот
+ПОМЕСТИТЬ ВТ_Оборот
+ИЗ
+	ВТ_номенклатура КАК ВТ_номенклатура
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрНакопления.ппОтвесы.Обороты(
+				,
+				,
+				Секунда,
+				Склад = &amp;СкладКИО1
+					И ТипДанныхОтвеса = &amp;ТипДанныхОтвеса) КАК ппОтвесыОбороты
+		ПО ВТ_номенклатура.Ссылка = ппОтвесыОбороты.Номенклатура
+
+СГРУППИРОВАТЬ ПО
+	ппОтвесыОбороты.Отвес,
+	ппОтвесыОбороты.Номенклатура,
+	ппОтвесыОбороты.ТипДанныхОтвеса,
+	ппОтвесыОбороты.Характеристика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Оборот.Номенклатура КАК Номенклатура,
+	ВТ_Оборот.Отвес КАК Отвес,
+	ппОтвесНакладнаяТовары.ДатаОтвеса КАК ДатаВходаВКИО1,
+	ппОтвесНакладнаяТовары.ВесНетто КАК ВесНетто,
+	ппОтвесНакладнаяТовары.Количество КАК Количество,
+	0 КАК ДатаВыходаИзКИО1,
+	0 КАК ДатаНаУпаковку,
+	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель КАК Склад,
+	0 КАК ДатаВходаВКИО2,
+	0 КАК ДатаВыходаИзКИО2
+ПОМЕСТИТЬ ВТДанныеДоГруппировки
+ИЗ
+	ВТ_Оборот КАК ВТ_Оборот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
+		ПО ВТ_Оборот.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_Оборот.Отвес = ппОтвесНакладнаяТовары.Отвес
+ГДЕ
+	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_Оборот.Номенклатура,
+	ВТ_Оборот.Отвес,
+	0,
+	ппОтвесНакладнаяТовары.ВесНетто,
+	ппОтвесНакладнаяТовары.Количество,
+	ппОтвесНакладнаяТовары.ДатаОтвеса,
+	ВЫБОР
+		КОГДА ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель &lt;&gt; &amp;СкладКИО2
+			ТОГДА ппОтвесНакладнаяТовары.ДатаОтвеса
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель,
+	0,
+	0
+ИЗ
+	ВТ_Оборот КАК ВТ_Оборот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
+		ПО ВТ_Оборот.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_Оборот.Отвес = ппОтвесНакладнаяТовары.Отвес
+ГДЕ
+	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_Оборот.Номенклатура,
+	ВТ_Оборот.Отвес,
+	0,
+	ппОтвесНакладнаяТовары.ВесНетто,
+	ппОтвесНакладнаяТовары.Количество,
+	0,
+	0,
+	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель,
+	ппОтвесНакладнаяТовары.ДатаОтвеса,
+	0
+ИЗ
+	ВТ_Оборот КАК ВТ_Оборот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
+		ПО ВТ_Оборот.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_Оборот.Отвес = ппОтвесНакладнаяТовары.Отвес
+ГДЕ
+	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО2
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_Оборот.Номенклатура,
+	ВТ_Оборот.Отвес,
+	0,
+	ппОтвесНакладнаяТовары.ВесНетто,
+	ппОтвесНакладнаяТовары.Количество,
+	0,
+	ппОтвесНакладнаяТовары.ДатаОтвеса,
+	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель,
+	0,
+	ппОтвесНакладнаяТовары.ДатаОтвеса
+ИЗ
+	ВТ_Оборот КАК ВТ_Оборот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
+		ПО ВТ_Оборот.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_Оборот.Отвес = ппОтвесНакладнаяТовары.Отвес
+ГДЕ
+	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДанныеДоГруппировки.Номенклатура КАК Номенклатура,
+	ВТДанныеДоГруппировки.Отвес КАК Отвес,
+	СУММА(ВТДанныеДоГруппировки.ВесНетто) КАК ВесНетто,
+	СУММА(ВТДанныеДоГруппировки.Количество) КАК Количество,
+	МАКСИМУМ(ВТДанныеДоГруппировки.ДатаНаУпаковку) КАК ДатаНаУпаковку,
+	МАКСИМУМ(ВТДанныеДоГруппировки.Склад) КАК Склад,
+	МАКСИМУМ(ВТДанныеДоГруппировки.ДатаВходаВКИО1) КАК ДатаВходаВКИО1,
+	МАКСИМУМ(ВТДанныеДоГруппировки.ДатаВыходаИзКИО1) КАК ДатаВыходаИзКИО1,
+	МАКСИМУМ(ВТДанныеДоГруппировки.ДатаВходаВКИО2) КАК ДатаВходаВКИО2,
+	МАКСИМУМ(ВТДанныеДоГруппировки.ДатаВыходаИзКИО2) КАК ДатаВыходаИзКИО2
+ПОМЕСТИТЬ ВТДанныйГруппировка
+ИЗ
+	ВТДанныеДоГруппировки КАК ВТДанныеДоГруппировки
+
+СГРУППИРОВАТЬ ПО
+	ВТДанныеДоГруппировки.Номенклатура,
+	ВТДанныеДоГруппировки.Отвес
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДанныйГруппировка.Номенклатура КАК Номенклатура,
+	ВТДанныйГруппировка.Отвес КАК Отвес,
+	ВТДанныйГруппировка.ВесНетто КАК ВесНетто,
+	ВТДанныйГруппировка.Количество КАК Количество,
+	ВТДанныйГруппировка.ДатаНаУпаковку КАК ДатаНаУпаковку,
+	ВТДанныйГруппировка.Склад КАК Склад,
+	ВТДанныйГруппировка.ДатаВходаВКИО1 КАК ДатаВходаВКИО1,
+	ВТДанныйГруппировка.ДатаВыходаИзКИО1 КАК ДатаВыходаИзКИО1,
+	ВТДанныйГруппировка.ДатаВходаВКИО2 КАК ДатаВходаВКИО2,
+	ВТДанныйГруппировка.ДатаВыходаИзКИО2 КАК ДатаВыходаИзКИО2,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаНаУпаковку, 0) КАК ДАТА), СЕКУНДА) / 3600 КАК ВремяОхлажденияФакт,
+	ВТНормы.НормаПериодаОхлаждения КАК НормаПериодаОхлаждения,
+	ВТНормы.НормаПериодаОхлажденияКИО_2 КАК НормаПериодаОхлажденияКИО_2,
+	ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0) + ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0) КАК ОбщееВремяОхлажденияПлан,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаНаУпаковку, 0) КАК ДАТА), СЕКУНДА) / 3600 - (ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0) + ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0)) КАК ОтклонениеОтНормыОбщее,
+	ппОтвесНакладнаяТовары.Ссылка КАК Ссылка,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО1, 0) КАК ДАТА), СЕКУНДА) / 3600 - ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0) КАК ОтклонениеОтНормыКИО1,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО1, 0) КАК ДАТА), СЕКУНДА) / 3600 КАК ВремяОхлажденияКИО1Факт,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО2, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО2, 0) КАК ДАТА), СЕКУНДА) / 3600 КАК ВремяОхлажденияКИО2Факт,
+	РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО2, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО2, 0) КАК ДАТА), СЕКУНДА) / 3600 - ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0) КАК ОтклонениеОтНормыКИО2
+ИЗ
+	ВТДанныйГруппировка КАК ВТДанныйГруппировка
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТНормы КАК ВТНормы
+		ПО ВТДанныйГруппировка.Номенклатура = ВТНормы.Номенклатура
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
+		ПО ВТДанныйГруппировка.Отвес = ппОтвесНакладнаяТовары.Отвес
+ГДЕ
+	(ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО1
+			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО1
+			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2)</query>
+		</dataSet>
+		<totalField>
+			<dataPath>ВесНетто</dataPath>
+			<expression>Максимум(ВесНетто)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ДатаВходаВКИО1</dataPath>
+			<expression>Максимум(ДатаВходаВКИО1)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ДатаВходаВКИО2</dataPath>
+			<expression>Максимум(ДатаВходаВКИО2)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ДатаВыходаИзКИО1</dataPath>
+			<expression>Максимум(ДатаВыходаИзКИО1)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ДатаВыходаИзКИО2</dataPath>
+			<expression>Максимум(ДатаВыходаИзКИО2)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ДатаНаУпаковку</dataPath>
+			<expression>Максимум(ДатаНаУпаковку)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>Количество</dataPath>
+			<expression>Максимум(Количество)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>НормаПериодаОхлаждения</dataPath>
+			<expression>Максимум(НормаПериодаОхлаждения)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>НормаПериодаОхлажденияКИО_2</dataPath>
+			<expression>Максимум(НормаПериодаОхлажденияКИО_2)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ВремяОхлажденияФакт</dataPath>
+			<expression>Максимум(ВремяОхлажденияФакт)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ОбщееВремяОхлажденияПлан</dataPath>
+			<expression>Максимум(ОбщееВремяОхлажденияПлан)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ВремяОхлажденияКИО1Факт</dataPath>
+			<expression>Максимум(ВремяОхлажденияКИО1Факт)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ВремяОхлажденияКИО2Факт</dataPath>
+			<expression>Максимум(ВремяОхлажденияКИО2Факт)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ОтклонениеОтНормыКИО1</dataPath>
+			<expression>Максимум(ОтклонениеОтНормыКИО1)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ОтклонениеОтНормыКИО2</dataPath>
+			<expression>Максимум(ОтклонениеОтНормыКИО2)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<totalField>
+			<dataPath>ОтклонениеОтНормыОбщее</dataPath>
+			<expression>Максимум(ОтклонениеОтНормыОбщее)</expression>
+			<group>Отвес</group>
+		</totalField>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+			<expression>&amp;СТДПериод.ДатаНачала</expression>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+			<expression>&amp;СТДПериод.ДатаОкончания</expression>
+		</parameter>
+		<parameter>
+			<name>СкладКИО1</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Склад КИО1</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Склады</Type>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>СкладКИО2</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Склад КИО2</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Склады</Type>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ТипДанныхОтвеса</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Тип данных отвеса</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.ппТипДанныхОтвеса</Type>
+			</valueType>
+			<value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xsi:type="dcscor:DesignTimeValue">Перечисление.ппТипДанныхОтвеса.Товар</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>СТДПериод</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>СТДПериод</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">StandardPeriod</Type>
+			</valueType>
+			<value xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:StandardPeriod">
+				<d4p1:variant xsi:type="d4p1:StandardPeriodVariant">Custom</d4p1:variant>
+				<d4p1:startDate>0001-01-01T00:00:00</d4p1:startDate>
+				<d4p1:endDate>0001-01-01T00:00:00</d4p1:endDate>
+			</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>ВремяОхлажденияВКамере1_2</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ВесНетто</field>
+		</item>
+		<item xsi:type="SelectedItemFolder">
+			<lwsTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КИО1</v8:content>
+				</v8:item>
+			</lwsTitle>
+			<item xsi:type="SelectedItemField">
+				<field>ДатаВходаВКИО1</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ДатаВыходаИзКИО1</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ВремяОхлажденияКИО1Факт</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>НормаПериодаОхлаждения</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ОтклонениеОтНормыКИО1</field>
+			</item>
+			<placement>Auto</placement>
+		</item>
+		<item xsi:type="SelectedItemFolder">
+			<lwsTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КИО2</v8:content>
+				</v8:item>
+			</lwsTitle>
+			<item xsi:type="SelectedItemField">
+				<field>ДатаВходаВКИО2</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ДатаВыходаИзКИО2</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ВремяОхлажденияКИО2Факт</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>НормаПериодаОхлажденияКИО_2</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ОтклонениеОтНормыКИО2</field>
+			</item>
+			<placement>Auto</placement>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаНаУпаковку</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ВремяОхлажденияФакт</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ОбщееВремяОхлажденияПлан</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ОтклонениеОтНормыОбщее</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Отвес</field>
+		</item>
+	</selection>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>СкладКИО1</dcscor:parameter>
+			<dcscor:value xsi:nil="true"/>
+			<userSettingID>6a0b7b84-00e2-4577-bd4c-b1acf862c05b</userSettingID>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>СкладКИО2</dcscor:parameter>
+			<dcscor:value xsi:nil="true"/>
+			<userSettingID>c2cf11c7-e365-4ed9-b055-b69fdadb64b2</userSettingID>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>ТипДанныхОтвеса</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.ппТипДанныхОтвеса.Товар</dcscor:value>
+			<userSettingID>e57777e0-1d33-48f9-9bcb-285c54f4f3bd</userSettingID>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>Период</dcscor:parameter>
+			<dcscor:value xsi:type="v8:StandardBeginningDate">
+				<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+				<v8:date>0001-01-01T00:00:00</v8:date>
+			</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>СТДПериод</dcscor:parameter>
+			<dcscor:value xsi:type="v8:StandardPeriod">
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</dcscor:value>
+			<userSettingID>5b4df358-0935-425c-a959-a152446e022b</userSettingID>
+		</dcscor:item>
+	</dataParameters>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Номенклатура</field>
+				<groupType>Hierarchy</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Отвес</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto">
+					<use>false</use>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>ВесНетто</field>
+				</item>
+				<item xsi:type="SelectedItemFolder">
+					<lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КИО1</v8:content>
+						</v8:item>
+					</lwsTitle>
+					<item xsi:type="SelectedItemField">
+						<field>ДатаВходаВКИО1</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ДатаВыходаИзКИО1</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ВремяОхлажденияКИО1Факт</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>НормаПериодаОхлаждения</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ОтклонениеОтНормыКИО1</field>
+					</item>
+					<placement>Auto</placement>
+				</item>
+				<item xsi:type="SelectedItemFolder">
+					<lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КИО2</v8:content>
+						</v8:item>
+					</lwsTitle>
+					<item xsi:type="SelectedItemField">
+						<field>ДатаВходаВКИО2</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ДатаВыходаИзКИО2</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ВремяОхлажденияКИО2Факт</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>НормаПериодаОхлажденияКИО_2</field>
+					</item>
+					<item xsi:type="SelectedItemField">
+						<field>ОтклонениеОтНормыКИО2</field>
+					</item>
+					<placement>Auto</placement>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>ДатаНаУпаковку</field>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>ВремяОхлажденияФакт</field>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>ОбщееВремяОхлажденияПлан</field>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>ОтклонениеОтНормыОбщее</field>
+				</item>
+				<item xsi:type="SelectedItemField">
+					<field>Отвес</field>
+				</item>
+			</selection>
+			<outputParameters/>
+		</item>
+		<item xsi:type="StructureItemGroup">
+			<use>false</use>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</item>
+	</item>
+	<item xsi:type="StructureItemTable">
+		<use>false</use>
+		<column>
+			<use>false</use>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Склад</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</column>
+		<row>
+			<use>false</use>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Номенклатура</field>
+					<groupType>Hierarchy</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+			<item>
+				<use>false</use>
+				<groupItems>
+					<item xsi:type="GroupItemField">
+						<field>Отвес</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>НормаПериодаОхлаждения</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>НормаПериодаОхлажденияКИО_2</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>ОбщееВремяОхлажденияПлан</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+				</groupItems>
+				<order>
+					<item xsi:type="OrderItemAuto"/>
+				</order>
+				<selection>
+					<item xsi:type="SelectedItemAuto"/>
+				</selection>
+				<outputParameters/>
+			</item>
+		</row>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
