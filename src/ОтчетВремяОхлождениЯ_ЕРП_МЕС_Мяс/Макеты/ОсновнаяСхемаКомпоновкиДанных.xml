@@ -11,26 +11,31 @@
 				<dataPath>Ссылка</dataPath>
 				<field>Ссылка</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Родитель</dataPath>
 				<field>Родитель</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВидНоменклатуры</dataPath>
 				<field>ВидНоменклатуры</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВесНетто</dataPath>
 				<field>ВесНетто</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Количество</dataPath>
 				<field>Количество</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаНаУпаковку</dataPath>
@@ -42,6 +47,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НормаПериодаОхлаждения</dataPath>
@@ -53,6 +59,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НормаПериодаОхлажденияКИО_2</dataPath>
@@ -64,6 +71,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВходаВКИО1</dataPath>
@@ -421,13 +429,13 @@
 	ппОтвесыОбороты.Отвес КАК Отвес,
 	ппОтвесыОбороты.ТипДанныхОтвеса КАК ТипДанныхОтвеса,
 	ппОтвесыОбороты.Характеристика КАК Характеристика,
-	СУММА(ппОтвесыОбороты.ВесНеттоОборот) КАК ВесНеттоОборот
+	МАКСИМУМ(ппОтвесыОбороты.ВесНеттоРасход) КАК ВесНеттоОборот
 ПОМЕСТИТЬ ВТ_ОборотКио8
 ИЗ
 	ВТ_номенклатура КАК ВТ_номенклатура
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрНакопления.ппОтвесы.Обороты(
-				{(&amp;Н2)},
-				{(&amp;Ок2)},
+				&amp;Нач {(&amp;Н2)},
+				&amp;Окон {(&amp;Ок2)},
 				Секунда,
 				Склад = &amp;СкладКИО8
 					И ТипДанныхОтвеса = &amp;ТипДанныхОтвеса) КАК ппОтвесыОбороты
@@ -446,13 +454,13 @@
 	ппОтвесыОбороты.Отвес КАК Отвес,
 	ппОтвесыОбороты.ТипДанныхОтвеса КАК ТипДанныхОтвеса,
 	ппОтвесыОбороты.Характеристика КАК Характеристика,
-	СУММА(ппОтвесыОбороты.ВесНеттоОборот) КАК ВесНеттоОборот
+	МАКСИМУМ(ппОтвесыОбороты.ВесНеттоРасход) КАК ВесНеттоОборот
 ПОМЕСТИТЬ ВТ_Оборот
 ИЗ
 	ВТ_номенклатура КАК ВТ_номенклатура
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрНакопления.ппОтвесы.Обороты(
-				{(&amp;Н1)},
-				{(&amp;Ок1)},
+				&amp;Нач {(&amp;Н1)},
+				&amp;Окон {(&amp;Ок1)},
 				Секунда,
 				Склад = &amp;СкладКИО1
 					И ТипДанныхОтвеса = &amp;ТипДанныхОтвеса) КАК ппОтвесыОбороты
@@ -470,7 +478,7 @@
 	ВТ_ОборотКио8.Номенклатура КАК Ном1,
 	ВТ_ОборотКио8.Отвес КАК Отв1,
 	0 КАК ДатаВходаВКИО1,
-	ппОтвесНакладнаяТовары.ВесНетто КАК ВесНетто,
+	0 КАК ВесНетто,
 	ппОтвесНакладнаяТовары.Количество КАК Количество,
 	0 КАК ДатаВыходаИзКИО1,
 	0 КАК ДатаНаУпаковку,
@@ -517,7 +525,7 @@
 	ВТ_Оборот.Номенклатура,
 	ВТ_Оборот.Отвес,
 	ппОтвесНакладнаяТовары.ДатаОтвеса,
-	ппОтвесНакладнаяТовары.ВесНетто,
+	0,
 	ппОтвесНакладнаяТовары.Количество,
 	0,
 	0,
@@ -567,7 +575,7 @@
 	ВТ_Оборот.Номенклатура,
 	ВТ_Оборот.Отвес,
 	0,
-	ппОтвесНакладнаяТовары.ВесНетто,
+	0,
 	ппОтвесНакладнаяТовары.Количество,
 	0,
 	0,
@@ -590,7 +598,7 @@
 	ВТ_Оборот.Номенклатура,
 	ВТ_Оборот.Отвес,
 	0,
-	ппОтвесНакладнаяТовары.ВесНетто,
+	0,
 	ппОтвесНакладнаяТовары.Количество,
 	0,
 	ппОтвесНакладнаяТовары.ДатаОтвеса,
@@ -605,7 +613,7 @@
 		ПО ВТ_Оборот.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
 			И ВТ_Оборот.Отвес = ппОтвесНакладнаяТовары.Отвес
 ГДЕ
-	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2
+	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО8
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -981,6 +989,40 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Нач</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Нач</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Окон</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Окон</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
 		</parameter>
 		<settingsVariant>
 			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
