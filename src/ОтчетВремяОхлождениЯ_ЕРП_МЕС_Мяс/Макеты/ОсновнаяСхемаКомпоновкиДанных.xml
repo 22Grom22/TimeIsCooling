@@ -11,26 +11,31 @@
 				<dataPath>Ссылка</dataPath>
 				<field>Ссылка</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Родитель</dataPath>
 				<field>Родитель</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВидНоменклатуры</dataPath>
 				<field>ВидНоменклатуры</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВесНетто</dataPath>
 				<field>ВесНетто</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Количество</dataPath>
 				<field>Количество</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаНаУпаковку</dataPath>
@@ -42,6 +47,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НормаПериодаОхлаждения</dataPath>
@@ -53,6 +59,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НормаПериодаОхлажденияКИО_2</dataPath>
@@ -64,6 +71,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВходаВКИО1</dataPath>
@@ -75,6 +83,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВыходаИзКИО1</dataPath>
@@ -86,6 +95,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВходаВКИО2</dataPath>
@@ -97,6 +107,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВыходаИзКИО2</dataPath>
@@ -108,6 +119,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВремяОхлажденияФакт</dataPath>
@@ -127,6 +139,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОбщееВремяОхлажденияПлан</dataPath>
@@ -146,6 +159,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОтклонениеОтНормыКИО2</dataPath>
@@ -165,6 +179,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОтклонениеОтНормыОбщее</dataPath>
@@ -184,6 +199,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОтклонениеОтНормыКИО1</dataPath>
@@ -203,6 +219,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВремяОхлажденияКИО1Факт</dataPath>
@@ -222,6 +239,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВремяОхлажденияКИО2Факт</dataPath>
@@ -241,6 +259,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВходаВКИО8</dataPath>
@@ -252,6 +271,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ДатаВыходаИзКИО8</dataPath>
@@ -263,6 +283,7 @@
 					</d5p1:item>
 				</title>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НормаПериодаОхлажденияКИО_8</dataPath>
@@ -282,6 +303,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВремяОхлажденияКИО8Факт</dataPath>
@@ -301,6 +323,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ОтклонениеОтНормыКИО8</dataPath>
@@ -320,6 +343,7 @@
 					</NumberQualifiers>
 				</valueType>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Ном1</dataPath>
@@ -334,6 +358,7 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Отв1</dataPath>
@@ -348,41 +373,49 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Склад</dataPath>
 				<field>Склад</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Организация</dataPath>
 				<field>Организация</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Номенклатура</dataPath>
 				<field>Номенклатура</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КамераСклада</dataPath>
 				<field>КамераСклада</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Отвес</dataPath>
 				<field>Отвес</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТипДанныхОтвеса</dataPath>
 				<field>ТипДанныхОтвеса</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Характеристика</dataPath>
 				<field>Характеристика</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ
@@ -483,8 +516,8 @@
 ИЗ
 	ВТ_ОборотКио8 КАК ВТ_ОборотКио8
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
-		ПО (ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура)
-			И (ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес)
+		ПО ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес
 ГДЕ
 	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО8
 
@@ -625,8 +658,8 @@
 ИЗ
 	ВТ_ОборотКио8 КАК ВТ_ОборотКио8
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
-		ПО (ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура)
-			И (ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес)
+		ПО ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес
 ГДЕ
 	ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО2
 
@@ -648,8 +681,8 @@
 ИЗ
 	ВТ_ОборотКио8 КАК ВТ_ОборотКио8
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
-		ПО (ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура)
-			И (ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес)
+		ПО ВТ_ОборотКио8.Номенклатура = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТ_ОборотКио8.Отвес = ппОтвесНакладнаяТовары.Отвес
 ГДЕ
 	ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2
 ;
@@ -749,16 +782,41 @@
 ИЗ
 	ВТДанныйГруппировка КАК ВТДанныйГруппировка
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТНормы КАК ВТНормы
-		ПО (ВТДанныйГруппировка.Ном1 = ВТНормы.Номенклатура)
+		ПО ВТДанныйГруппировка.Ном1 = ВТНормы.Номенклатура
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ппОтвесНакладная.Товары КАК ппОтвесНакладнаяТовары
-		ПО (ВТДанныйГруппировка.Ном1 = ппОтвесНакладнаяТовары.Номенклатура)
-			И (ВТДанныйГруппировка.Отв1 = ппОтвесНакладнаяТовары.Отвес)
+		ПО ВТДанныйГруппировка.Ном1 = ппОтвесНакладнаяТовары.Номенклатура
+			И ВТДанныйГруппировка.Отв1 = ппОтвесНакладнаяТовары.Отвес
 ГДЕ
 	(ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО1
 			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладПолучатель = &amp;СкладКИО8
 			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО8
 			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО1
-			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2)</query>
+			ИЛИ ппОтвесНакладнаяТовары.Ссылка.СкладОтправитель = &amp;СкладКИО2)
+{ГДЕ
+	ВТДанныйГруппировка.ВесНетто,
+	ВТДанныйГруппировка.Количество,
+	ВТДанныйГруппировка.ДатаНаУпаковку,
+	ВТДанныйГруппировка.ДатаВходаВКИО1,
+	ВТДанныйГруппировка.ДатаВыходаИзКИО1,
+	ВТДанныйГруппировка.ДатаВходаВКИО2,
+	ВТДанныйГруппировка.ДатаВыходаИзКИО2,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, ВТДанныйГруппировка.ДатаВходаВКИО8) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаНаУпаковку, 0) КАК ДАТА), СЕКУНДА) / 3600) КАК ВремяОхлажденияФакт,
+	ВТНормы.НормаПериодаОхлаждения,
+	ВТНормы.НормаПериодаОхлажденияКИО_2,
+	(ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0) + ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0)) КАК ОбщееВремяОхлажденияПлан,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаНаУпаковку, 0) КАК ДАТА), СЕКУНДА) / 3600 - (ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0) + ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0))) КАК ОтклонениеОтНормыОбщее,
+	ппОтвесНакладнаяТовары.Ссылка.*,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО1, 0) КАК ДАТА), СЕКУНДА) / 3600 - ЕСТЬNULL(ВТНормы.НормаПериодаОхлаждения, 0)) КАК ОтклонениеОтНормыКИО1,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО1, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО1, 0) КАК ДАТА), СЕКУНДА) / 3600) КАК ВремяОхлажденияКИО1Факт,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО2, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО2, 0) КАК ДАТА), СЕКУНДА) / 3600) КАК ВремяОхлажденияКИО2Факт,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО2, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО2, 0) КАК ДАТА), СЕКУНДА) / 3600 - ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_2, 0)) КАК ОтклонениеОтНормыКИО2,
+	ВТДанныйГруппировка.ДатаВходаВКИО8,
+	ВТДанныйГруппировка.ДатаВыходаИзКИО8,
+	(ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_8, 123)) КАК НормаПериодаОхлажденияКИО_8,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО8, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО8, 0) КАК ДАТА), СЕКУНДА) / 3600 - ЕСТЬNULL(ВТНормы.НормаПериодаОхлажденияКИО_8, 0)) КАК ОтклонениеОтНормыКИО8,
+	(РАЗНОСТЬДАТ(ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВходаВКИО8, 0) КАК ДАТА), ВЫРАЗИТЬ(ЕСТЬNULL(ВТДанныйГруппировка.ДатаВыходаИзКИО8, 0) КАК ДАТА), СЕКУНДА) / 3600) КАК ВремяОхлажденияКИО8Факт,
+	ВТДанныйГруппировка.Ном1.*,
+	ВТДанныйГруппировка.Отв1.*}</query>
 		</dataSet>
 		<totalField>
 			<dataPath>ВесНетто</dataPath>
@@ -878,6 +936,7 @@
 			</valueType>
 			<value xsi:nil="true"/>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>СкладКИО2</name>
@@ -892,6 +951,7 @@
 			</valueType>
 			<value xsi:nil="true"/>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ТипДанныхОтвеса</name>
@@ -906,6 +966,7 @@
 			</valueType>
 			<value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xsi:type="dcscor:DesignTimeValue">Перечисление.ппТипДанныхОтвеса.Товар</value>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>СТДПериод</name>
@@ -924,6 +985,7 @@
 				<d4p1:endDate>0001-01-01T00:00:00</d4p1:endDate>
 			</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>СкладКИО8</name>
@@ -938,6 +1000,7 @@
 			</valueType>
 			<value xsi:nil="true"/>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Н1</name>
@@ -956,6 +1019,7 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;СТДПериод.ДатаНачала</expression>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Ок1</name>
@@ -974,6 +1038,7 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;СТДПериод.ДатаОкончания</expression>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Н2</name>
@@ -992,6 +1057,7 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;СТДПериод.ДатаНачала</expression>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Ок2</name>
@@ -1010,6 +1076,7 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>&amp;СТДПериод.ДатаОкончания</expression>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Период</name>
@@ -1027,6 +1094,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Нач</name>
@@ -1044,6 +1112,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Окон</name>
@@ -1061,6 +1130,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<settingsVariant>
 			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
